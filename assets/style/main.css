@@ -1,0 +1,99 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #0b132b;
+}
+
+.kiri {
+  background-color: #337cf2;
+  height: 100vh;
+}
+
+.kiri h1 {
+  color: #f6f6f6;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.kanan {
+  background-color: #f8f4f4;
+  height: 100vh;
+}
+
+.kanan .logo .blue {
+  color: #337cf2;
+}
+
+.kanan img {
+  border-radius: 100px;
+}
+
+.kanan form input {
+  width: 60%;
+  border-radius: 100px;
+  margin: 0 auto;
+  border: 0px;
+}
+
+.kanan form button {
+  width: 60%;
+  border-radius: 100px;
+}
+
+.kanan form .btn-login {
+  background-color: #337cf2;
+  color: #f6f6f6;
+}
+
+.kanan form .btn-create {
+  background-color: #e3e3e3;
+  color: #0b132b;
+}
+
+.kanan form a {
+  color: #f6f6f6;
+  text-decoration: none;
+}
+
+.kanan form .forgot a {
+  color: #606060;
+  text-decoration: underline;
+}
+
+.mid {
+  margin-top: 100px;
+}
+
+.hero .hero-kanan .blue {
+  font-size: 90px;
+  color: #337cf2;
+  font-weight: 500;
+}
+
+.hero .hero-kanan h1 {
+  font-size: 61px;
+  font-weight: 300;
+}
+
+.hero .hero-kanan .cta {
+  color: #ffffff;
+  background-color: #26c485;
+  text-decoration: none;
+  border-radius: 100px;
+}
+
+.nav .logo img {
+  border-radius: 100px;
+}
+
+.nav .profile .bold {
+  font-weight: 700;
+}
+
+.nav .profile p {
+  font-weight: 300;
+}
+
+.nav .profile img {
+  display: inline;
+}
+/*# sourceMappingURL=main.css.map */

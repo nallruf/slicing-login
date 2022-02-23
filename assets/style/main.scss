@@ -1,0 +1,103 @@
+@import "var";
+body {
+  font-family: "Poppins", sans-serif;
+  color: $black;
+}
+
+.kiri {
+  background-color: $blue;
+  height: 100vh;
+  h1 {
+    color: $white;
+    font-size: 36px;
+    font-weight: 700;
+  }
+}
+
+.kanan {
+  background-color: $bg;
+  height: 100vh;
+  .logo {
+    .blue {
+      color: $blue;
+    }
+  }
+  img {
+    border-radius: 100px;
+  }
+  form {
+    // margin-top: 50px;
+    input {
+      width: 60%;
+      border-radius: 100px;
+      margin: 0 auto;
+      border: 0px;
+    }
+    button {
+      width: 60%;
+      border-radius: 100px;
+    }
+    .btn-login {
+      background-color: $blue;
+      color: $white;
+    }
+    .btn-create {
+      background-color: $gray;
+      color: $black;
+    }
+    a {
+      color: $white;
+      // margin: 100px 0;
+      text-decoration: none;
+    }
+    .forgot {
+      a {
+        color: #606060;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.mid {
+  margin-top: 100px;
+}
+
+.hero {
+  .hero-kanan {
+    .blue {
+      font-size: 90px;
+      color: $blue;
+      font-weight: 500;
+    }
+    h1 {
+      font-size: 61px;
+      font-weight: 300;
+    }
+    .cta {
+      color: #ffffff;
+      background-color: $green;
+      text-decoration: none;
+      border-radius: 100px;
+    }
+  }
+}
+
+.nav {
+  .logo {
+    img {
+      border-radius: 100px;
+    }
+  }
+  .profile {
+    .bold {
+      font-weight: 700;
+    }
+    p {
+      font-weight: 300;
+    }
+    img {
+      display: inline;
+    }
+  }
+}
